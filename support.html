@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cine Mix — Support • Privacy</title>
+  <meta name="description" content="Cine Mix • Support center and Privacy Policy for the AI story‑mixing app." />
+  <meta name="theme-color" content="#10b981" />
+  <meta property="og:title" content="Cine Mix — Support • Privacy" />
+  <meta property="og:description" content="Support, FAQs, and Privacy Policy for Cine Mix." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="" />
+  <style>
+    :root{
+      --bg:#ffffff; /* bright white */
+      --ink:#0f172a; /* slate-900 */
+      --muted:#475569; /* slate-600 */
+      --line:#e2e8f0; /* slate-200 */
+      --green:#10b981; /* emerald */
+      --orange:#f59e0b; /* amber-ish */
+      --cyan:#06b6d4; /* cyan */
+      --yellow:#facc15; /* yellow */
+      --card:#f8fafc; /* slate-50 */
+      --shadow: 0 10px 30px rgba(2, 6, 23, .08);
+      --radius: 16px;
+    }
+    html,body{background:var(--bg);color:var(--ink);font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";line-height:1.6}
+    a{color:var(--cyan);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}
+    .wrap{max-width:1040px;margin-inline:auto;padding:28px 20px}
+    header.nav{position:sticky;top:0;z-index:20;background:linear-gradient(180deg,#fff 60%,rgba(255,255,255,.8));backdrop-filter:saturate(1.1) blur(6px);border-bottom:1px solid var(--line)}
+    .nav-inner{display:flex;align-items:center;gap:18px;justify-content:space-between;padding:10px 0}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{inline-size:40px;block-size:40px;border-radius:12px;background:conic-gradient(from 210deg,var(--green),var(--cyan),var(--yellow),var(--orange),var(--green));box-shadow:inset 0 0 0 4px #fff, var(--shadow)}
+    .brand h1{font-size:18px;margin:0}
+    .nav-links{display:flex;gap:14px;flex-wrap:wrap}
+    .chip{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border:1px solid var(--line);border-radius:999px;background:#fff;box-shadow:var(--shadow)}
+    .chip svg{inline-size:16px;block-size:16px}
+
+    /* HERO */
+    .hero{margin-top:24px;border:1px solid var(--line);border-radius:var(--radius);background:
+      radial-gradient(1200px 300px at 10% -10%, rgba(16,185,129,.1), transparent 50%),
+      radial-gradient(1200px 300px at 110% 10%, rgba(6,182,212,.12), transparent 50%),
+      radial-gradient(900px 260px at 50% 120%, rgba(250,204,21,.12), transparent 50%),
+      #fff;box-shadow:var(--shadow);overflow:hidden}
+    .hero-inner{padding:36px 24px 28px 24px;display:grid;grid-template-columns:1.2fr .8fr;gap:24px}
+    @media (max-width:880px){.hero-inner{grid-template-columns:1fr}}
+    .title{font-size:clamp(26px,4.2vw,40px);line-height:1.15;margin:0}
+    .subtitle{color:var(--muted);margin:10px 0 22px}
+    .cta-row{display:flex;gap:12px;flex-wrap:wrap}
+    .btn{appearance:none;border:none;border-radius:12px;padding:12px 16px;font-weight:600;cursor:pointer;box-shadow:var(--shadow)}
+    .btn.primary{background:linear-gradient(135deg,var(--green),var(--cyan));color:#fff}
+    .btn.secondary{background:#fff;border:1px solid var(--line)}
+    .hero-card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+    .pill{display:inline-block;background:#fff;border:1px solid var(--line);padding:6px 10px;border-radius:999px;font-size:12px;margin-right:8px}
+
+    /* GRID SECTIONS */
+    .section{margin-top:42px}
+    .section h2{font-size:22px;margin:0 0 14px}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
+    .col-4{grid-column:span 4}
+    .col-6{grid-column:span 6}
+    .col-8{grid-column:span 8}
+    .col-12{grid-column:span 12}
+    @media (max-width:980px){.col-4,.col-6,.col-8{grid-column:span 12}}
+    .card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px}
+    .card h3{margin:0 0 8px}
+    .tag-row{display:flex;gap:8px;flex-wrap:wrap}
+    .tag{font-size:12px;padding:6px 10px;border-radius:999px;background:var(--card);border:1px solid var(--line)}
+
+    /* TABLE */
+    table{width:100%;border-collapse:separate;border-spacing:0;overflow:hidden;border:1px solid var(--line);border-radius:12px}
+    th,td{padding:12px 14px;border-bottom:1px solid var(--line);text-align:left}
+    thead th{background:linear-gradient(0deg,#fff, #fdfdfd)}
+    tbody tr:hover{background:#f9fafb}
+
+    /* FOOTER */
+    footer{margin-top:46px;border-top:1px solid var(--line);padding:18px 0;color:var(--muted)}
+    .badges{display:flex;gap:10px;flex-wrap:wrap}
+    .badge{font-size:12px;border:1px solid var(--line);padding:6px 10px;border-radius:999px;background:#fff}
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <h1>Cine Mix — Support & Privacy</h1>
+      </div>
+      <nav class="nav-links" aria-label="Primary">
+        <a class="chip" href="#support">Support</a>
+        <a class="chip" href="#faq">FAQ</a>
+        <a class="chip" href="#privacy">Privacy</a>
+        <a class="chip" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- HERO -->
+    <section class="hero" id="support">
+      <div class="hero-inner">
+        <div>
+          <span class="pill" style="border-color:var(--green)">Support Center</span>
+          <span class="pill" style="border-color:var(--cyan)">Privacy Hub</span>
+          <h2 class="title">We’re here to help — and to protect your data.</h2>
+          <p class="subtitle">Cine Mix lets you blend movies & TV episodes to create brand‑new AI stories. Find answers, report issues, or review our privacy policy below.</p>
+          <div class="cta-row">
+            <a href="#faq" class="btn primary">Read FAQs</a>
+            <a href="#privacy" class="btn secondary">Privacy at a glance</a>
+          </div>
+        </div>
+        <aside>
+          <div class="hero-card">
+            <h3 style="margin:0 0 8px">Quick help</h3>
+            <ul style="margin:0 0 10px 20px">
+              <li>App version: <strong>1.0</strong></li>
+              <li>Last updated: <strong>October 1, 2025</strong></li>
+              <li>Response time: <strong>1–2 business days</strong></li>
+            </ul>
+            <div class="tag-row" aria-label="channels">
+              <a class="tag" href="mailto:tamthitran1010@icloud.com">Email Support</a>
+              <a class="tag" href="#contact">Report a bug</a>
+              <a class="tag" href="#privacy">Data requests (GDPR/CPRA)</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="grid">
+        <div class="col-6 card">
+          <h3>What is Cine Mix?</h3>
+          <p>Cine Mix is a creativity tool that generates original stories inspired by themes and moods from movies and TV. You can pick 2–4 sources, tweak options like genre, POV, tone, and ending, and get a fresh, transformative story. We do not reproduce copyrighted scripts or characters verbatim.</p>
+        </div>
+        <div class="col-6 card">
+          <h3>Does it stream movies or use scripts?</h3>
+          <p>No. Cine Mix does not stream movies or provide full scripts. It uses short, generalized metadata (e.g., titles, tags, loglines) and your chosen options to guide the AI. Output is new writing, not copied text.</p>
+        </div>
+        <div class="col-6 card">
+          <h3>Why do I need 2–4 sources?</h3>
+          <p>Blending multiple inspirations helps the AI create more transformative and surprising ideas while avoiding close similarity to any single source.</p>
+        </div>
+        <div class="col-6 card">
+          <h3>What about age ratings?</h3>
+          <p>You can set an age rating (e.g., PG‑13) and we’ll guide the output accordingly. Explicit sexual content and graphic violence are disallowed.</p>
+        </div>
+        <div class="col-6 card">
+          <h3>Can I save or share my stories?</h3>
+          <p>Yes. Save favorites, export to text/PDF, or regenerate with alternate endings. Your stories remain yours to keep and share.</p>
+        </div>
+        <div class="col-6 card">
+          <h3>Is my data used to train AI models?</h3>
+          <p>We do <strong>not</strong> sell your data. Model providers may process prompts to deliver the service; we disable training on customer content where the provider allows.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRIVACY SUMMARY -->
+    <section class="section" id="privacy">
+      <h2>Privacy Summary</h2>
+      <div class="grid">
+        <div class="col-8 card">
+          <h3>What we collect</h3>
+          <table aria-label="Data collection table">
+            <thead>
+              <tr>
+                <th>Category</th>
+                <th>Examples</th>
+                <th>Purpose</th>
+                <th>Retention</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Usage</td>
+                <td>Mix options, feature clicks, crash logs</td>
+                <td>Improve features, fix bugs, prevent abuse</td>
+                <td>12–24 months (aggregated/anonymized sooner)</td>
+              </tr>
+              <tr>
+                <td>Content</td>
+                <td>Your prompts, story outputs</td>
+                <td>Generate stories, show history/remix</td>
+                <td>User‑controlled; delete anytime</td>
+              </tr>
+            </tbody>
+          </table>
+          <p style="margin-top:10px;color:var(--muted)">We minimize personal data and prefer on‑device storage where possible.</p>
+        </div>
+        <div class="col-4 card">
+          <h3>Your choices</h3>
+          <ul style="margin:0 0 10px 18px">
+            <li>Export / delete stories</li>
+            <li>Opt‑out of analytics (settings)</li>
+            <li>Request data copy (email us)</li>
+          </ul>
+          <div class="tag-row">
+            <span class="tag" style="border-color:var(--green)">GDPR</span>
+            <span class="tag" style="border-color:var(--cyan)">CPRA</span>
+            <span class="tag" style="border-color:var(--yellow)">PDPA</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRIVACY POLICY (DETAILED) -->
+    <section class="section">
+      <h2>Privacy Policy (Detailed)</h2>
+      <div class="card">
+        <p><strong>Effective date:</strong> October 1, 2025</p>
+        <p>We respect your privacy. This policy explains what we collect, why we collect it, and how you can control your data.</p>
+        <h3>1. Data We Process</h3>
+        <ul>
+          <li><strong>User content:</strong> prompts, options (genre/POV/etc.), generated stories.</li>
+          <li><strong>Diagnostics:</strong> crash logs, performance metrics.</li>
+        </ul>
+        <h3>2. How We Use Data</h3>
+        <ul>
+          <li>Provide core features (story generation, favorites, history, remix).</li>
+          <li>Customer support and fraud prevention.</li>
+          <li>Analytics to improve UX (aggregated/limited; you can opt out in settings).</li>
+        </ul>
+        <h3>3. AI & Third‑Party Services</h3>
+        <p>To generate stories, we send minimal necessary context to AI model providers (e.g., prompt text, high‑level metadata). Where providers allow, we disable using your content to train their models. We may use: cloud hosting, crash analytics, app store billing, and The Movie Database (TMDb) for metadata. This product uses the TMDb API but is not endorsed or certified by TMDb.</p>
+        <h3>4. Data Sharing</h3>
+        <p>We do not sell your personal information. We share data only with processors necessary to operate the app (e.g., hosting, analytics) under data protection agreements.</p>
+        <h3>5. International Transfers</h3>
+        <p>Where data is transferred internationally, we rely on appropriate safeguards (e.g., SCCs) as required by law.</p>
+        <h3>6. Your Rights</h3>
+        <ul>
+          <li>Access, correct, or delete your data.</li>
+          <li>Withdraw consent for optional features.</li>
+        </ul>
+        <h3>7. Data Retention</h3>
+        <p>We retain personal data only as long as needed for the purposes above or to comply with legal obligations. You can delete your stories and account at any time from the app or by contacting support.</p>
+        <h3>8. Children</h3>
+        <p>Cine Mix is not intended for children under the age of 13 (or 16 in certain regions). We do not knowingly collect data from children.</p>
+        <h3>9. Changes</h3>
+        <p>We may update this policy. We will notify you in‑app or via this page with a new effective date.</p>
+        <h3 id="contact">10. Contact</h3>
+        <p>Email: <a href="mailto:tamthitran1010@icloud.com">tamthitran1010@icloud.com</a> • Support: <a href="mailto:tamthitran1010@icloud.com">tamthitran1010@icloud.com</a></p>
+      </div>
+    </section>
+
+    <!-- APP INFO / LINKS -->
+    <section class="section">
+      <h2>App Info & Links</h2>
+      <div class="grid">
+        <div class="col-6 card">
+          <h3>Download</h3>
+          <p><a href="#">App Store</a> • <a href="#">Google Play</a></p>
+          <p class="badges">
+            <span class="badge" style="border-color:var(--green)">No Ads</span>
+            <span class="badge" style="border-color:var(--cyan)">AI‑Powered</span>
+          </p>
+        </div>
+        <div class="col-6 card">
+          <h3>Legal</h3>
+          <p><a href="#privacy">Privacy Policy</a> • <a href="#">Terms of Use</a> • <a href="#">EULA</a></p>
+          <p style="color:var(--muted)">© <span id="year"></span> Cine Mix. All rights reserved.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="wrap">
+      <div>Made with <span aria-label="sparkles" title="sparkles">✨</span> for storytellers.
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
